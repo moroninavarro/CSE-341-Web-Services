@@ -1,5 +1,43 @@
 GET https://project1-k5sv.onrender.com/Contacts
 
+### Get All Contacts
+GET http://localhost:3000/Contacts
+
+
+###Get contact by id
+GET http://localhost:3000/Contacts/6904418d7d449585757e8379
+
+
+###CREATE CONTACT
+POST http://localhost:3000/Contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Vegetta",   
+    "lastName": "Probando",
+    "email": "test@live.com.mx",
+    "favoriteColor": "Gray",
+    "birthday": "6/May/1970"
+  }
+
+
+
+### PUT CONTACT
+PUT http://localhost:3000/Contacts/690d13fde1fde4c969321887 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "terceraProve",
+    "lastName": "Alanis",
+    "email": "anttitest@gmail.com",
+    "favoriteColor": "black",
+    "birthday": "8/July/2000"
+  }
+
+
+### DELETE Contact
+DELETE http://localhost:3000/Contacts/690d8070f7a0b1f9bc7db317
+
 
 
 
