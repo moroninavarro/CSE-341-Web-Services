@@ -5,10 +5,9 @@
     "description": "Constacts Api",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "project1-k5sv.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
