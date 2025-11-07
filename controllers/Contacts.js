@@ -31,7 +31,7 @@ const createUser = async(req, res) => {
     if (response.aknowledged) {
         res.status(204).send();
     } else {
-        res.status(500).json(response.error || 'Some error ocurred while updating the contact.');
+        res.status(500).json(response.error);
     }
 };
 

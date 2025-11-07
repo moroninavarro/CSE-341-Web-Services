@@ -13,7 +13,7 @@ POST http://localhost:3000/Contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Vegetta",   
+    "firstName": "ddsd",   
     "lastName": "Probando",
     "email": "test@live.com.mx",
     "favoriteColor": "Gray",
@@ -23,7 +23,7 @@ content-type: application/json
 
 
 ### PUT CONTACT
-PUT http://localhost:3000/Contacts/690d13fde1fde4c969321887 HTTP/1.1
+PUT http://localhost:3000/Contacts/690d81c494b58f8b91b50faa HTTP/1.1
 content-type: application/json
 
 {
@@ -36,7 +36,7 @@ content-type: application/json
 
 
 ### DELETE Contact
-DELETE http://localhost:3000/Contacts/690d8070f7a0b1f9bc7db317
+DELETE http://localhost:3000/Contacts/690d82244085a9354a9a3917
 
 
 
